@@ -2,9 +2,12 @@ body {
   background-color: aquamarine;
 }
 body .navbar {
-  padding: 20px;
-  background-color: cornflowerblue;
+  padding: 25px;
+  font-size: 20px;
+  font-style: italic;
 }
-body nav {
-  background-color: cornflowerblue;
+body .navbar .navbar-brand {
+  font-size: 35px;
+  font-family: Impact;
+  font-style: italic;
 }/*# sourceMappingURL=styles.css.map */
