@@ -14,6 +14,33 @@ body
         font-style: italic;
         
     }
+
+    
     
 
+}
+
+.Meme_Section_Header
+{
+    background-color: rgb(196, 186, 186);
+    padding: 30px;
+    font-family: Impact;
+    font-size: 30px;
+    font-style: italic;
+    text-align: center;
+   
+}
+
+.Meme_Section_Body
+{
+    background-color: aliceblue;
+    .Meme{
+        width: 300px;
+        height: 300px;
+    }
+    .Meme:hover
+    {
+        width: 400px;
+        height: 400px;
+    }
 }
