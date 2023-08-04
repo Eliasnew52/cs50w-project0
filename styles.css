@@ -14,20 +14,34 @@ body .navbar .navbar-brand {
 
 .Meme_Section_Header {
   background-color: rgb(196, 186, 186);
-  padding: 30px;
+  padding: 5px;
   font-family: Impact;
   font-size: 30px;
   font-style: italic;
   text-align: center;
 }
 
-.Meme_Section_Body {
+.container {
   background-color: rgb(121, 243, 182);
-  padding-left: 300px;
-  padding-right: 300px;
+  width: 50%;
+  height: 50%;
 }
-.Meme_Section_Body img {
-  width: 400px;
-  height: 400px;
-  padding: 30px;
+
+.Header_Logo {
+  height: 80px;
+  width: 330px;
+  padding-left: 30px;
+}
+
+.Header_Logo_Big {
+  height: 150px;
+  width: 350px;
+  padding-left: 30px;
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    width: 70%;
+    height: 70%;
+  }
 }/*# sourceMappingURL=styles.css.map */
