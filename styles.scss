@@ -1,3 +1,19 @@
+/*Herederos*/
+/* % es para Clases que pueden heredar xd*/
+%Header_Stats
+{
+    background-color: rgb(196, 186, 186);
+    padding: 5px;
+    font-family: Impact;
+    font-size: 30px;
+    font-style: italic;
+    text-align: center;
+}
+/* Cuando mande a llamar al heredero, aplica todos sus atributos donde
+lo invoque */
+
+
+
 body
 {
     background-color: aquamarine;
@@ -16,6 +32,7 @@ body
     }
     .card
     {
+        width: 350px;
         margin: 20px;
         padding: 20px;
         background-color: beige;
@@ -25,15 +42,11 @@ body
     
 }
 
+/* Con @extend puedo llamar al Heredero que haga su magia*/
 .Meme_Section_Header
 {
-    background-color: rgb(196, 186, 186);
-    padding: 5px;
-    font-family: Impact;
-    font-size: 30px;
-    font-style: italic;
-    text-align: center;
-   
+    @extend %Header_Stats
+    
 }
 
 .container
