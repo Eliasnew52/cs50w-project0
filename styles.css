@@ -11,6 +11,11 @@ body .navbar .navbar-brand {
   font-family: Impact;
   font-style: italic;
 }
+body .card {
+  margin: 20px;
+  padding: 20px;
+  background-color: beige;
+}
 
 .Meme_Section_Header {
   background-color: rgb(196, 186, 186);
@@ -25,6 +30,18 @@ body .navbar .navbar-brand {
   background-color: rgb(121, 243, 182);
   width: 50%;
   height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.meme_flexbox {
+  background-color: rgb(48, 171, 237);
+  width: 110%;
+  height: 50%;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .Header_Logo {
@@ -39,9 +56,15 @@ body .navbar .navbar-brand {
   padding-left: 30px;
 }
 
+/* Media Query */
 @media screen and (max-width: 600px) {
+  /* Anidamiento */
   .container {
     width: 70%;
     height: 70%;
+  }
+  .meme_flexbox {
+    width: 50%;
+    height: 50%;
   }
 }/*# sourceMappingURL=styles.css.map */
