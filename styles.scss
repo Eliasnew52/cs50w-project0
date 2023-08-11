@@ -92,7 +92,8 @@ body
     height: 80px;
     width: 330px;
     padding-left: 30px;
-    
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 .Header_Logo_Big
 {
@@ -119,6 +120,10 @@ body
     {
         font-size: 15px;
     }
+    #Layout_Grid_Body
+    {
+        font-size:15px ;
+    }
   }
 
 
@@ -140,6 +145,15 @@ body
     margin: 20px;
     border-radius: 10px;
     color: $Info_Color;
+}
+
+#Hyperion_Corps
+{
+    @extend %Header_Stats;
+    background-color: rgb(255, 213, 0);
+    border-radius: 20px;
+    margin: 30px;
+    color:white;
 }
 
 

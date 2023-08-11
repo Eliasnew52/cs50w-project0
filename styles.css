@@ -1,7 +1,7 @@
 /*Variables*/
 /*Herederos*/
 /* % es para Clases que pueden heredar xd*/
-#Layout_Grid_Head, .Meme_Section_Header {
+#Hyperion_Corps, #Layout_Grid_Head, .Meme_Section_Header {
   background-color: rgb(236, 236, 128);
   padding: 5px;
   font-family: Impact;
@@ -64,6 +64,8 @@ body .card {
   height: 80px;
   width: 330px;
   padding-left: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .Header_Logo_Big {
@@ -86,6 +88,9 @@ body .card {
   #Layout_Grid_Head {
     font-size: 15px;
   }
+  #Layout_Grid_Body {
+    font-size: 15px;
+  }
 }
 #Layout_Grid_Head {
   background-color: rgb(73, 83, 87);
@@ -101,4 +106,11 @@ body .card {
   margin: 20px;
   border-radius: 10px;
   color: rgb(240, 203, 178);
+}
+
+#Hyperion_Corps {
+  background-color: rgb(255, 213, 0);
+  border-radius: 20px;
+  margin: 30px;
+  color: white;
 }/*# sourceMappingURL=styles.css.map */
