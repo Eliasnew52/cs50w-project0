@@ -1,5 +1,7 @@
-##Puro Bootstrap este kbron :sunglasses:
-##Gracias por todo Omar
+##Puro Bootstrap este kbron :sunglasses: ##
+##Gracias por todo Omar##
+
+
 
 
 Hecho por Elias Castillo Grupo K God Y23C2

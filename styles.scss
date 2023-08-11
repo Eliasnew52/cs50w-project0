@@ -1,11 +1,27 @@
+/*Variables*/
+$header_color:rgb(236, 236, 128);
+$Info_Color: rgb(240, 203, 178);;
+
+
+
 /*Herederos*/
 /* % es para Clases que pueden heredar xd*/
 %Header_Stats
 {
-    background-color: rgb(196, 186, 186);
+    background-color: $header_color;
     padding: 5px;
     font-family: Impact;
     font-size: 30px;
+    font-style: italic;
+    text-align: center;
+}
+
+%Body_Stats
+{
+    background-color: $header_color;
+    padding: 5px;
+    font-family: Impact;
+    font-size: 25px;
     font-style: italic;
     text-align: center;
 }
@@ -99,7 +115,31 @@ body
         width: 50%;
         height: 50%;
     }
+    #Layout_Grid_Head
+    {
+        font-size: 15px;
+    }
   }
 
+
+#Layout_Grid_Head
+{
+   background-color:rgb(73, 83, 87);
+   @extend %Header_Stats;
+   margin: 20px;
+   border-color: black;
+   border-radius: 10px;
+   border: 100px;
+   color: $Info_Color;
+}
+
+#Layout_Grid_Body
+{
+    @extend %Body_Stats;
+    background-color: gray;
+    margin: 20px;
+    border-radius: 10px;
+    color: $Info_Color;
+}
 
 
